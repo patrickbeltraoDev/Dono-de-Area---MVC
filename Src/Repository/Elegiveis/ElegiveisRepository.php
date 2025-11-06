@@ -137,7 +137,7 @@ class ElegiveisRepository
                     ':ELEGIVEL'  => $r['ELEGIVEL'],
                     ':CHAPA'     => $r['CHAPA'],
                     ':MES'       => $mesReferencia,
-                    ':NOME_USER' => $r['RESPONSAVEL_VALIDACAO'],
+                    ':NOME_USER' => $r['NOME_USER'],
                 ]);
 
                 continue;
