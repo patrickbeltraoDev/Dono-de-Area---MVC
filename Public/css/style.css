@@ -1,0 +1,380 @@
+  /* ------- CONTAINER ------ */
+    table>tbody>tr>td img {
+        display: none;
+    }
+
+    body {
+        margin: 0;
+        padding: 0;
+    }
+
+    .dv-ctn {
+        width: 100vw;
+        background-color: #E5E5E5;
+    }
+
+    .dv-lyt {
+        display: flex;
+        width: 100%;
+        height: 95%;
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    /* ------- DIV GUIAS ------ */
+    #guiaOutrasRV {
+        justify-content: center;
+    }
+
+    .dv-sub-menu {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .dv-sub {
+        padding: 3px 20px;
+        background-color: #CCCCCC;
+        border-radius: 5px 5px 0 0;
+        font-size: 1.3em;
+        font-weight: 500;
+        letter-spacing: 1.1px;
+        cursor: pointer;
+    }
+
+    .dv-sub:hover {
+        background-color: #ef7c34;
+    }
+
+    /* ---- SECTION - DADOS PESSOAIS ---- */
+    .dv-dados-pessoais {
+        width: 100%;
+        padding: 5px;
+        display: flex;
+        align-items: center;
+        background-color: #FFF;
+    }
+
+    .dv-tags-dados {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 3px;
+    }
+
+    .dv-tags-dados:hover {
+        background-color: #E5E5E5;
+    }
+
+    .dv-tags-dados>img {
+        width: 20px;
+        height: 20px;
+    }
+
+    .dv-tags-dados>span {
+        font-size: 1.2em;
+        font-weight: 600;
+        letter-spacing: 1.1px;
+        color: #333;
+    }
+
+    @media (max-width: 8in) {
+        .dv-dados-pessoais {
+            flex-direction: column;
+            justify-content: left;
+            align-items: flex-start;
+        }
+
+        .dv-tags-dados>span {
+            width: 100%;
+            font-size: .85em;
+        }
+    }
+
+    /* ---- SECTION ---- */
+    .dv-lyt-sect {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        gap: 5px;
+        padding: 5px;
+    }
+
+    .dv-section1 {
+        width: 50%;
+        padding: 10px;
+        border: 1px solid #A8E3D7;
+        border-radius: 5px;
+        display: flex;
+        flex-direction: column;
+        background-color: #FFF;
+        overflow: hidden;
+    }
+
+    @media (min-width: 9in) and (max-width: 15in) {
+        .lmt-dv-md {
+            height: 50vh;
+            overflow-y: hidden;
+        }
+    }
+
+    /* @media (min-width: 16in) {
+            .lmt-dv-md {
+                height: 33vh;
+                overflow-y: hidden; 
+            }
+        } */
+
+    .dv-lmt-crd {
+        height: 70px;
+    }
+
+    .titleDescript {
+        width: 100%;
+        font-size: 1.5em;
+        font-weight: 600;
+        letter-spacing: 1.1px;
+        color: #333;
+        /* margin-bottom: 5px; */
+        background-color: #FFF;
+        padding: 10px;
+        padding-bottom: 0px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        /* box-shadow: 3px 9px 11px -2px rgba(0,0,0,0.88); */
+    }
+
+    .dataHora {
+        width: 100%;
+        letter-spacing: 1.1px;
+        color: #333;
+        font-weight: 500;
+        margin-bottom: 5px;
+        background-color: #FFF;
+        padding-right: 15px;
+        display: flex;
+        align-items: center;
+        justify-content: right;
+        gap: 10px;
+    }
+    #dv_section_table_other_area {
+        width: 90%;
+    }
+
+    .linkMes {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        align-items: center;
+        background-color: #FFF;
+        color: #1ABB9C;
+        /* padding: 5px; */
+        font-weight: 600;
+        font-size: 1.2em;
+        cursor: pointer;
+    }
+    .linkMes:hover {
+        background-color: #A8E3D7;
+        color: #333;
+    }
+
+    .dv-section1>span {
+        width: 100%;
+        font-size: 1.5em;
+        font-weight: 600;
+        letter-spacing: 1.1px;
+        color: #444;
+        margin-bottom: 5px;
+        background-color: #A8E3D7;
+        padding-left: 3px;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .dv-tag-mes {
+        font-size: .8em;
+        font-weight: 500;
+        letter-spacing: 1.1px;
+        color: #73879C;
+    }
+
+    .dv-sct-prod {
+        width: 100%;
+        /* height: 100%; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+        overflow: auto;
+    }
+
+    .lm-height-dv {
+        height: 100%;
+    }
+
+    @media (max-width: 8in) {
+        .dv-lyt-sect {
+            flex-direction: column;
+        }
+
+        .dv-section1 {
+            width: 100%;
+        }
+
+        .dv-sct-prod {
+            flex-direction: column;
+        }
+    }
+
+    .dv-card-prod {
+        width: 100%;
+        height: 100%;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border-radius: 5px;
+        box-shadow: 1px 1px 3px #444;
+    }
+    #resVlrFinalApHE, #resVlrFinalOnusHE {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: 100%;
+    }
+
+    .dv-card-prod:hover {
+        box-shadow: 1px 1px 2px #333;
+    }
+
+    .dv-card-prod span {
+        width: 100%;
+        height: 100%;
+        font-size: 1.2em;
+        font-weight: 500;
+        letter-spacing: 1.1px;
+        color: #444;
+        text-align: center;
+    }
+
+    .dv-ctx-card-prod {
+        width: 100%;
+        height: 100%;
+        font-size: 1.5em;
+        font-weight: 600;
+        color: #1ABB9C;
+        text-align: center;
+        margin-bottom: 5px;
+    }
+    .frmt-dv {
+        font-size: 1.5em;
+        font-weight: 600;
+        color: #1ABB9C;
+        text-align: center;
+    }
+
+    .dv-crd-mult {
+        width: 100%;
+        padding: 1px;
+        border-radius: 5px;
+        margin-top: 5px;
+        box-shadow: 1px 1px 3px #444;
+    }
+
+    .dv-brd-int {
+        border-radius: 5px;
+        border: 1px solid #A8E3D7;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 5px;
+    }
+
+    .dv-brd-int>span {
+        width: 100%;
+        padding: 2px;
+        background-color: #A8E3D7;
+        text-align: center;
+        color: #333;
+        font-weight: 600;
+    }
+
+    .dv-crd-mult-vlr {
+        width: 100%;
+        font-size: 1.5em;
+        font-weight: 600;
+        color: #1ABB9C;
+        padding: 15px;
+        text-align: center;
+        border-bottom: 1px solid #ccc;
+    }
+
+    .dv-rv-nvl {
+        width: 100%;
+        text-align: center;
+        padding: 5px;
+        font-size: 1.5em;
+        font-weight: 600;
+        color: #1ABB9C;
+    }
+
+    .dv-ctx-tot-atv {
+        width: 100%;
+        height: 100%;
+        padding: 5px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .dv-ctx-tot-atv span {
+        width: 100%;
+        height: 20px;
+        padding: 5px;
+        font-size: .9em;
+        font-weight: 600;
+        letter-spacing: 1.1px;
+        color: #444;
+        text-align: center;
+        border-bottom: 1px solid #eae8e8;
+    }
+
+    .dv-ctx-tot-atv span:hover {
+        background-color: #eae8e8;
+    }
+
+    .dv-graf-hist {
+        width: 100%;
+        height: 200px;
+        padding: 5px;
+    }
+
+    /* ---- GRÁFICO HISTORICO RV ---- */
+    /* ---- TABELAS ---- */
+    .lmt-dv-fl {
+        width: 100%;
+        height: 50vh;
+        overflow-y: scroll;
+        overflow-x: auto;
+    }
+
+    #div_tbl_res_TEC>table {
+        font-size: 1em;
+        width: 100%;
+    }
+
+    #tbl_res_TEC_wrapper {
+        width: 100%;
+        height: 100%;
+        margin-top: 10px;
+    }

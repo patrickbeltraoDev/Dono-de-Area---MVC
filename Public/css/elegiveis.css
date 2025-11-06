@@ -1,0 +1,39 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.rw-img {
+    width: 100%;
+    text-align: center;
+    margin: 10px 0;
+}
+
+.rw-img img {
+    width: 25px;
+    height: 25px;
+    margin: 0 20px;
+    cursor: pointer;
+}
+
+.rw-img img:hover {
+    transform: scale(1.4);
+    transition: transform 0.2s;
+}
+
+.footer {
+    text-align: right;
+    padding: 5px 0;
+    border-top: 1px solid #eee;
+    color: #FFF;
+    font-weight: 600;
+}
+
+/* #tableResult .js-example-basic-multiple,
+#tableResult .select2-container {
+    width: 100% !important;
+} */
+.js-example-basic-multiple {
+    width: 100% !important;
+}
